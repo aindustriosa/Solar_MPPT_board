@@ -10,6 +10,8 @@ A PCB conta con tódolos seus componentes en montaxe Through Hole (Furado pasant
 * INA219
 * Bluetooth HC-05
 
-<img src="/MPPT PCB/images/Render_pcb_front.jpg" width="439" height="233" />
+<p align="center">
+  <img src="/MPPT PCB/images/Render_pcb_front.jpg" width="548" height="291"/>
+</p>
 
 # Software
