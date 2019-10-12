@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "jeu. 02 avril 2015"
-Rev ""
-Comp ""
+Title "MPPT solar board"
+Date "2019-10-12"
+Rev "r1"
+Comp "Luis Miranda"
 Comment1 ""
 Comment2 ""
 Comment3 ""
