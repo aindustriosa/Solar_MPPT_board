@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "MPPT solar board"
 Date "2019-10-12"
-Rev "r1"
+Rev "r2"
 Comp "Luis Miranda"
 Comment1 ""
 Comment2 ""
@@ -123,7 +123,7 @@ F 3 "" H 1650 1425 50  0000 C CNN
 	1    1650 1425
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 1250 2    50   Input ~ 0
+Text GLabel 1650 1150 2    50   Input ~ 0
 PPM_IN_1
 Wire Wire Line
 	1650 1425 1650 1350
@@ -131,7 +131,7 @@ Wire Wire Line
 	1650 1350 1350 1350
 Wire Wire Line
 	1650 1250 1350 1250
-Text GLabel 1650 1150 2    50   Input ~ 0
+Text GLabel 1650 1250 2    50   Input ~ 0
 PWR_IN
 Wire Wire Line
 	1350 1150 1650 1150
@@ -158,7 +158,7 @@ F 3 "" H 1675 2150 50  0000 C CNN
 	1    1675 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1675 1975 2    50   Input ~ 0
+Text GLabel 1675 1875 2    50   Input ~ 0
 PPM_IN_3
 Wire Wire Line
 	1675 2150 1675 2075
@@ -166,7 +166,7 @@ Wire Wire Line
 	1675 2075 1375 2075
 Wire Wire Line
 	1675 1975 1375 1975
-Text GLabel 1675 1875 2    50   Input ~ 0
+Text GLabel 1675 1975 2    50   Input ~ 0
 PWR_IN
 Wire Wire Line
 	1375 1875 1675 1875
@@ -193,7 +193,7 @@ F 3 "" H 3050 1400 50  0000 C CNN
 	1    3050 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 1225 2    50   Input ~ 0
+Text GLabel 3050 1125 2    50   Input ~ 0
 PPM_IN_2
 Wire Wire Line
 	3050 1400 3050 1325
@@ -201,7 +201,7 @@ Wire Wire Line
 	3050 1325 2750 1325
 Wire Wire Line
 	3050 1225 2750 1225
-Text GLabel 3050 1125 2    50   Input ~ 0
+Text GLabel 3050 1225 2    50   Input ~ 0
 PWR_IN
 Wire Wire Line
 	2750 1125 3050 1125
@@ -228,7 +228,7 @@ F 3 "" H 3050 2150 50  0000 C CNN
 	1    3050 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 1975 2    50   Input ~ 0
+Text GLabel 3050 1875 2    50   Input ~ 0
 PPM_IN_4
 Wire Wire Line
 	3050 2150 3050 2075
@@ -236,7 +236,7 @@ Wire Wire Line
 	3050 2075 2750 2075
 Wire Wire Line
 	3050 1975 2750 1975
-Text GLabel 3050 1875 2    50   Input ~ 0
+Text GLabel 3050 1975 2    50   Input ~ 0
 PWR_IN
 Wire Wire Line
 	2750 1875 3050 1875
@@ -263,7 +263,7 @@ F 3 "" H 4950 1375 50  0000 C CNN
 	1    4950 1375
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4950 1200 0    50   Input ~ 0
+Text GLabel 4950 1100 0    50   Input ~ 0
 PPM_OUT_1
 Wire Wire Line
 	4950 1375 4950 1300
@@ -271,7 +271,7 @@ Wire Wire Line
 	4950 1300 5250 1300
 Wire Wire Line
 	4950 1200 5250 1200
-Text GLabel 4950 1100 0    50   Input ~ 0
+Text GLabel 4950 1200 0    50   Input ~ 0
 PWR_OUT
 Wire Wire Line
 	5250 1100 4950 1100
@@ -298,7 +298,7 @@ F 3 "" H 4975 2100 50  0000 C CNN
 	1    4975 2100
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4975 1925 0    50   Input ~ 0
+Text GLabel 4975 1825 0    50   Input ~ 0
 PPM_OUT_3
 Wire Wire Line
 	4975 2100 4975 2025
@@ -306,7 +306,7 @@ Wire Wire Line
 	4975 2025 5275 2025
 Wire Wire Line
 	4975 1925 5275 1925
-Text GLabel 4975 1825 0    50   Input ~ 0
+Text GLabel 4975 1925 0    50   Input ~ 0
 PWR_OUT
 Wire Wire Line
 	5275 1825 4975 1825
@@ -333,7 +333,7 @@ F 3 "" H 6500 1350 50  0000 C CNN
 	1    6500 1350
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6500 1175 0    50   Input ~ 0
+Text GLabel 6500 1075 0    50   Input ~ 0
 PPM_OUT_2
 Wire Wire Line
 	6500 1350 6500 1275
@@ -341,7 +341,7 @@ Wire Wire Line
 	6500 1275 6800 1275
 Wire Wire Line
 	6500 1175 6800 1175
-Text GLabel 6500 1075 0    50   Input ~ 0
+Text GLabel 6500 1175 0    50   Input ~ 0
 PWR_OUT
 Wire Wire Line
 	6800 1075 6500 1075
@@ -368,7 +368,7 @@ F 3 "" H 6450 2100 50  0000 C CNN
 	1    6450 2100
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6450 1925 0    50   Input ~ 0
+Text GLabel 6450 1825 0    50   Input ~ 0
 PPM_OUT_4
 Wire Wire Line
 	6450 2100 6450 2025
@@ -376,7 +376,7 @@ Wire Wire Line
 	6450 2025 6750 2025
 Wire Wire Line
 	6450 1925 6750 1925
-Text GLabel 6450 1825 0    50   Input ~ 0
+Text GLabel 6450 1925 0    50   Input ~ 0
 PWR_OUT
 Wire Wire Line
 	6750 1825 6450 1825
