@@ -51,7 +51,7 @@ En esencia, o algoritmo adapta a demanda que se fai do motor do seguinte modo:
 5. Incrementa ou decrementa PWM (ver grafo)
 
 <p align="center">
-  <img src="/doc/img/P_O.JPG" width="548" height="291"/>
+  <img src="/doc/img/P_O.jpg" width="548" height="291"/>
 </p>
 
 
