@@ -5,6 +5,9 @@ https://www.regatasolar.org/
 
 A idea é que o sistema sexa o suficientemente sinxelo de montar e integrar que poida ser usado polos equipos de estudantes.
 
+
+# Técnica
+
 A complexidade de construir un vehículo solar sen acumulación de enerxía radica en conseguir exprimir ó máximo as posibilidades do panel solar.
 Os paneles entregan enerxía eléctrica seguindo unha curva característica que fai necesaria unha xestión intelixente da demanda do sistema de propulsión. É necesario atopar o punto de máxima potencia: se demandamos menos do que o panel é capaz de entregar, desaproveitamos enerxía, e se demandamos máis do que é capaz de entregar, o panel vense abaixo e a potencia entregada cae dramáticamente ata provocar un apagado do sistema.
 
@@ -14,6 +17,11 @@ A continuación unha curva característica de entrega de potencia dun panel sola
   <img src="/doc/img/solar-panel-power.JPG" width="548" height="291"/>
 </p>
 
+A estratexia seguida para conseguir o propósito consiste en monitorizar constantemente a corrente e tensión entregadas polo panel (e, por tanto, a potencia) e modular mediante un algoritmo software a demanda do motor de propulsión para conseguir en todo momento a máxima potencia disponible.
+Este algoritmo ten que ser capaz de auto-adaptarse para facer fronte ás cambiantes condicións nas que o panel se atopa:
+* Cambios na radiación solar
+* Modificación na posición do panel con respecto do sol
+* Cambios na resistencia do motor segundo as condicións dinámicas da embarcación
 
 
 # Hardware
