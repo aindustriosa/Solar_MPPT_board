@@ -1,11 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x03_Male
+# Connector_Conn_01x01_Male
 #
-DEF Connector:Conn_01x03_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x03_Male" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -24,11 +41,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x06_Female
+# Connector_Conn_01x06_Female
 #
-DEF Connector:Conn_01x06_Female J 0 40 Y N 1 F N
+DEF Connector_Conn_01x06_Female J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector:Conn_01x06_Female" 0 -400 50 H V C CNN
+F1 "Connector_Conn_01x06_Female" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -56,34 +73,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Screw_Terminal_01x02
+# Connector_Generic_Conn_01x15
 #
-DEF Connector:Screw_Terminal_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Screw_Terminal_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TerminalBlock*:*
-$ENDFPLIST
-DRAW
-C 0 -100 25 1 1 6 N
-C 0 0 25 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-P 2 1 1 6 -21 -87 13 -120 N
-P 2 1 1 6 -21 13 13 -20 N
-P 2 1 1 6 -14 -80 20 -113 N
-P 2 1 1 6 -14 20 20 -13 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x15
-#
-DEF Connector_Generic:Conn_01x15 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x15 J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Generic:Conn_01x15" 0 -800 50 H V C CNN
+F1 "Connector_Generic_Conn_01x15" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -124,11 +118,34 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C_Small
+# Connector_Screw_Terminal_01x02
 #
-DEF Device:C_Small C 0 10 N N 1 F N
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -142,11 +159,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -165,11 +182,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -182,15 +199,15 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Jumper:Jumper_3_Open
+# Jumper_Jumper_3_Open
 #
-DEF Jumper:Jumper_3_Open JP 0 0 Y N 1 F N
+DEF Jumper_Jumper_3_Open JP 0 0 Y N 1 F N
 F0 "JP" -100 -100 50 H V C CNN
-F1 "Jumper:Jumper_3_Open" 0 110 50 H V C CNN
+F1 "Jumper_Jumper_3_Open" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Jumper*
+ SolderJumper*Open*
 $ENDFPLIST
 DRAW
 A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
@@ -205,11 +222,11 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_Push
+# Switch_SW_Push
 #
-DEF Switch:SW_Push SW 0 40 N N 1 F N
+DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -222,11 +239,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -238,11 +255,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -253,11 +270,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -266,11 +283,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
