@@ -22,6 +22,7 @@ Este algoritmo ten que ser capaz de auto-adaptarse para facer fronte ás cambian
 * Cambios na radiación solar
 * Modificación na posición do panel con respecto do sol
 * Cambios na resistencia do motor segundo as condicións dinámicas da embarcación
+* ...
 
 
 # Hardware
@@ -41,5 +42,16 @@ A peza principal do código é unha implementación do algoritmo MPPT "Perturb a
 Sirva como guía para comprender a implementación o seguinte documento:
 
 http://ww1.microchip.com/downloads/en/appnotes/00001521a.pdf
+
+En esencia, o algoritmo adapta a demanda que se fai do motor do seguinte modo:
+1. Mide Corrente entregada polo panel
+2. Mide a Tensión á saída do panel
+3. Calcula a potencia
+4. Compara coa potencia na anterior iteración
+5. Incrementa ou decrementa PWM (ver grafo)
+
+<p align="center">
+  <img src="/doc/img/P_O.JPG" width="548" height="291"/>
+</p>
 
 
