@@ -11,7 +11,7 @@ Os paneles entregan enerxía eléctrica seguindo unha curva característica que 
 A continuación unha curva característica de entrega de potencia dun panel solar:
 
 <p align="center">
-  <img src="/doc/img/solar-panel-power.jpg" width="548" height="291"/>
+  <img src="/doc/img/solar-panel-power.JPG" width="548" height="291"/>
 </p>
 
 
