@@ -36,6 +36,14 @@ A PCB conta con tódolos seus componentes en montaxe Through Hole (Furado pasant
   <img src="/MPPT PCB/images/Render_pcb_front.jpg" width="548" height="291"/>
 </p>
 
+E conexións cos diferentes elementos que compoñen toda a electróncia do barco solar:
+* Entrada de panel solar
+* Saída de alimentación para o ESC
+* Entrada de batería (receptor R/C)
+* 4x Entradas PWM de sináis provintes do receptor de R/C
+* 4x Saídas PWM para ESC, Servos, ...
+* Conexión módulo Bluetooth HC05
+
 # Software
 
 A peza principal do código é unha implementación do algoritmo MPPT "Perturb and Observe".
