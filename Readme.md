@@ -62,4 +62,18 @@ En esencia, o algoritmo adapta a demanda que se fai do motor do seguinte modo:
   <img src="/doc/img/P_O.jpg" width="548" height="291"/>
 </p>
 
+# Licenza
+
+## Hardware
+
+Diseñado por Luis Miranda e Hernán Serrano baixo licenza CERN OPEN HARDWARE LICENCE v1.2 http://www.ohwr.org/
+Esta licenza aplica ós deseños Hardware e documentación contida na carpeta 'MPPT PCB' de este repositorio.
+
+
+Designed by Luis Miranda & Hernán Serrano under CERN OPEN HARDWARE LICENCE v1.2 http://www.ohwr.org/
+This license applies to hardware designs and documentation which reside in the 'MPPT PCB' folder of this repository.
+
+## Software
+
+
 
