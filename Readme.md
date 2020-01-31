@@ -44,6 +44,13 @@ E conexións cos diferentes elementos que compoñen toda a electróncia do barco
 * 4x Saídas PWM para ESC, Servos, ...
 * Conexión módulo Bluetooth HC05
 
+Esquema básico de montaxe:
+
+<p align="center">
+  <img src="/MPPT PCB/images/Montaxe_basico.png" width="548" height="291"/>
+</p>
+
+
 # Software
 
 A peza principal do código é unha implementación do algoritmo MPPT "Perturb and Observe".
