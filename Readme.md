@@ -47,7 +47,7 @@ E conexións cos diferentes elementos que compoñen toda a electróncia do barco
 Esquema básico de montaxe:
 
 <p align="center">
-  <img src="/MPPT PCB/images/Montaxe_basico.png" width="548" height="291"/>
+  <img src="/MPPT PCB/images/Montaxe_basico.png" width="548"/>
 </p>
 
 
