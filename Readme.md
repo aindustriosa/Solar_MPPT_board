@@ -69,6 +69,9 @@ En esencia, o algoritmo adapta a demanda que se fai do motor do seguinte modo:
   <img src="/doc/img/P_O.jpg" width="600"/>
 </p>
 
+Os jumpers JP1 e JP2 sirven para conectar os rails de 5V e/ou Vin cos pines de alimentación das entradas e saídas PPM.
+Nesta montaxe, se queremos alimentar todo o sistema a través do BEC do ESC conectaremos JP2 con Vin (caso de BEC de 6V) ou con +5V (caso de BEC de 5V). Para alimentar o receptor de radio, conectaremos JP1 para que nao pin de alimentación das entradas esté disponible +5V ou Vin, según se desexe.
+
 # Licenza
 
 ## Hardware
