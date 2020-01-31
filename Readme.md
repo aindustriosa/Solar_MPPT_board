@@ -14,7 +14,7 @@ Os paneles entregan enerxía eléctrica seguindo unha curva característica que 
 A continuación unha curva característica de entrega de potencia dun panel solar:
 
 <p align="center">
-  <img src="/doc/img/solar-panel-power.JPG" width="548" height="291"/>
+  <img src="/doc/img/solar-panel-power.JPG" width="600"/>
 </p>
 
 A estratexia seguida para conseguir o propósito consiste en monitorizar constantemente a corrente e tensión entregadas polo panel (e, por tanto, a potencia) e modular mediante un algoritmo software a demanda do motor de propulsión para conseguir en todo momento a máxima potencia disponible.
@@ -33,7 +33,7 @@ A PCB conta con tódolos seus componentes en montaxe Through Hole (Furado pasant
 * Bluetooth HC-05
 
 <p align="center">
-  <img src="/MPPT PCB/images/Render_pcb_front.jpg" width="548" height="291"/>
+  <img src="/MPPT PCB/images/Render_pcb_front.jpg" width="600"/>
 </p>
 
 E conexións cos diferentes elementos que compoñen toda a electróncia do barco solar:
@@ -47,7 +47,7 @@ E conexións cos diferentes elementos que compoñen toda a electróncia do barco
 Esquema básico de montaxe:
 
 <p align="center">
-  <img src="/MPPT PCB/images/Montaxe_basico.png" width="548"/>
+  <img src="/MPPT PCB/images/Montaxe_basico.png" width="600"/>
 </p>
 
 
@@ -66,7 +66,7 @@ En esencia, o algoritmo adapta a demanda que se fai do motor do seguinte modo:
 5. Incrementa ou decrementa PWM (ver grafo)
 
 <p align="center">
-  <img src="/doc/img/P_O.jpg" width="548" height="291"/>
+  <img src="/doc/img/P_O.jpg" width="600"/>
 </p>
 
 # Licenza
