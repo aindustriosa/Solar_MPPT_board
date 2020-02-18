@@ -57,11 +57,18 @@ ISR (PCINT1_vect){
 
 
 void setup() {
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
   Serial.begin(9600);
+  digitalWrite(LED1,HIGH);
+  digitalWrite(LED2,HIGH);
   
   init_ESC();
   delay(1000);
   init_RC();
+
+  digitalWrite(LED1,HIGH);
+  digitalWrite(LED2,HIGH);
   
   init_INA219(0);
 
@@ -150,8 +157,8 @@ void PO_timer_callback(){
                 if (v<UMBRAL_VOLT) state=LIMITADO;
                 if (speed < PPM1) speed = speed + PPM_INCREMENTO;
                 else speed = PPM1;
-                digitalWrite(LED1,LOW);
-                digitalWrite(LED2,HIGH);
+                digitalWrite(LED1,HIGH);
+                digitalWrite(LED2,LOW);
               break;
               case LIMITADO:
                 if (PPM1<50) {
@@ -161,8 +168,8 @@ void PO_timer_callback(){
                 if (v>UMBRAL_VOLT) state=AVANCE;
                 else speed = speed - PPM_DECREMENTO;
                 if (speed<50) speed=50;
-                digitalWrite(LED1,HIGH);
-                digitalWrite(LED2,LOW);
+                digitalWrite(LED1,LOW);
+                digitalWrite(LED2,HIGH);
               break;
               case REVERSA:
                 if (PPM1<45) speed=REV_SPEED; //hacia atrás, velocidad fija
