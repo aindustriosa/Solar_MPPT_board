@@ -57,6 +57,7 @@ Na wiki do proxecto detállase o pinout dos diferentes conectores. Recoméndase 
 
 https://github.com/aindustriosa/Solar_MPPT_board/wiki
 
+### NOTA: A PCB do INA219 debe ser modificada para poder medir corrente no rango que entrega o panel. Recoméndase sustituir a resisntencia de Shunt orixinal de 0R1 por unha de 0R025.
 
 
 # Software
